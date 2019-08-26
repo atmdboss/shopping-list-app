@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	font-size: 2em;
+	font-family: monospace;
+	background: linear-gradient(90deg, #564759, #604d64, #954ba5)
+}
+p {
+	margin-bottom: 5px;
+}
+#userInput {
+	width: 50%;
+	height: 50px;
+	padding: 5px;
+	font-size: .8em;
+}
+input[type="submit"] {
+	width: 10%;
+	height: 50px;
+	border-radius: 4px;
+	background-color: #f16243;
+	font-size: .8em;
+}
+li {
+	text-transform: capitalize;
+}
+
+
+
+/* CLASSES CREATED WITH JAVASCRIPT */
+.original {
+	list-style: none;
+	margin-top: 8px;
+}
+.done {
+	text-decoration: line-through;
+}
+.btn {
+	margin-left: 5px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #365d64;
+}
